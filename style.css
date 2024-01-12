@@ -50,11 +50,6 @@ font-weight: 400;
 }
 /* banner-new-style */
 
-.banner-new-style{
-
- 
-   
-}
 .banner-conetent{
     max-width: 800px;
    margin: 0 auto;
@@ -139,6 +134,81 @@ font-size: 16px;
 font-weight: 400;
 margin-bottom: 30px;
 }
+/* .fact-section-style */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+
+}
+.card{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+border: 1px solid #FF900E;
+   text-align: center;
+   padding: 45px 40px;
+
+}
+.fact-section{
+    padding-top: 50px;
+}
+.card-stat{
+color:  #424242;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 600;
+
+}
+.card-title{
+color: #727272;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+}
+/* 
+feature-section
+card2-design */
+.feature-section{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-text-section{
+    max-width: 585px;
+  
+}
+.card2{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+margin-top: 50px;
+padding: 30px 30px;
+}
+.card2-title{
+    color: #131313;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+
+}
+.feature-text-title{
+    padding: 24px 26px;
+}
+.architect{
+    height: auto;
+    width: 100%;
+}
+.achitect{
+    position: relative;
+}
+.experience-mark{
+border-radius: 8px;
+background: #FF900E;
+padding: 45px 42px;
+position: absolute;
+bottom: -50px;
+left:-80px;
+}
 
 
 /* responsive-media-quaries */
@@ -146,29 +216,42 @@ margin-bottom: 30px;
     header{
         padding:20px;
     }
-    nav, .feature-container {
+    nav,.feature-container,.feature-section,.facts-card-container {
         flex-direction: column;
     }
+
     nav ul{
         flex-direction: column;
     }
+
     .teams-content-image{
         grid-template-columns: 1fr;
      
         
     }
-  
+   .experience-mark{
+    position: absolute;
+    left: 0;
+   }
     
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
+    
     nav,.feature-container { 
      flex-direction: column;
      padding: 50px;
 
     }
+    .feature-section,.facts-card-container{
+        flex-direction: column;
+    }
+
     .teams-content-text{
         padding-top: 20px;
+    }
+    .feature-section{
+        padding-left:70px;
     }
      
  }
