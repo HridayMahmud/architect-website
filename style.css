@@ -314,15 +314,17 @@ font-family: Work sans;
         padding:20px 0px;
         width: 100%;
        }
-       .feature-section{
-        width: 100%;
-        margin: 0 auto;
-      }
+    
       .sponsor-links a{
         margin-bottom: 20px;
+       
       }
-      .feature-section{
-        width: 100%;
-        margin: 0 auto;
-      }
+     .achitect img{
+        width:90%;
+        padding-top: 30px;
+      
+     }
+     .experience-mark{
+        padding: 0px;
+     }
  }
