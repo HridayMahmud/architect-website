@@ -178,14 +178,14 @@ card2-design */
   
 }
 .card2{
-    border-radius: 8px;
+border-radius: 8px;
 background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 margin-top: 50px;
 padding: 30px 30px;
 }
 .card2-title{
-    color: #131313;
+color: #131313;
 font-family: Work Sans;
 font-size: 20px;
 font-weight: 600;
@@ -209,14 +209,48 @@ position: absolute;
 bottom: -50px;
 left:-80px;
 }
+/* sponsor-section-style */
+.sponsor-section{
+   
+    margin-top:180px  ;
+    text-align: center;
 
+  
+}
+.sponsor-title-section{
+    margin-bottom: 50px;
+}
+.sponsor-des{
+    margin-top: 24px;
+}
+.sponsor-links{
+    display: flex;
+    justify-content: space-between;
+}
+/* footer-section-style */
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    max-width: 1440px;
+    padding: 35px 400px;
+    margin:0 auto;
+    margin-top: 130px;
+}
+.footer-text{
+color: #424242;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+font-family: Work sans;
+
+}
 
 /* responsive-media-quaries */
 @media screen and (max-width:576px) {
     header{
         padding:20px;
     }
-    nav,.feature-container,.feature-section,.facts-card-container {
+    nav,.feature-container,.feature-section,.facts-card-container,.sponsor-links{
         flex-direction: column;
     }
 
@@ -225,14 +259,26 @@ left:-80px;
     }
 
     .teams-content-image{
-        grid-template-columns: 1fr;
+     grid-template-columns: 1fr;
      
         
     }
-   .experience-mark{
-    position: absolute;
-    left: 0;
-   }
+  .facts-card-container{
+    gap: 20px;
+
+    width: 80%;
+    margin: 0 auto;
+  }
+  .feature-text-title,.feature-text-des,.fact-section h1,p{
+    text-align: center;
+  }
+  .sponsor-links a{
+    margin-bottom: 10px;
+  }
+  .footer {
+   padding:10px 0px;
+   width: 100%;
+  }
     
 }
 
@@ -243,7 +289,7 @@ left:-80px;
      padding: 50px;
 
     }
-    .feature-section,.facts-card-container{
+    .feature-section,.facts-card-container, .sponsor-links{
         flex-direction: column;
     }
 
@@ -253,5 +299,16 @@ left:-80px;
     .feature-section{
         padding-left:70px;
     }
-     
+    .facts-card-container
+    {
+        gap: 20px;
+    }
+    .feature-text-title,.feature-text-des,.fact-section h1,p{
+        text-align: center;
+      }
+      .footer {
+        padding:20px 0px;
+        width: 100%;
+       }
+         
  }
