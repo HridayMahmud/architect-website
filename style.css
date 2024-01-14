@@ -273,11 +273,15 @@ font-family: Work sans;
     text-align: center;
   }
   .sponsor-links a{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .footer {
    padding:10px 0px;
    width: 100%;
+  }
+  .feature-section{
+    width: 100%;
+    margin: 0 auto;
   }
     
 }
@@ -310,5 +314,15 @@ font-family: Work sans;
         padding:20px 0px;
         width: 100%;
        }
-         
+       .feature-section{
+        width: 100%;
+        margin: 0 auto;
+      }
+      .sponsor-links a{
+        margin-bottom: 20px;
+      }
+      .feature-section{
+        width: 100%;
+        margin: 0 auto;
+      }
  }
